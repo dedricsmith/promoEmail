@@ -1,0 +1,217 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+	background: $light-gray !important;
+	background-color: $light-gray !important;
+	font-family: $body-font-family;
+}
+
+.header {
+	.columns {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	img {
+		padding-top: 30px;
+		padding-bottom: 20px;
+		width: 180px;
+		margin: 0 auto;
+	}
+
+	.header-links {
+		background: $primary-color;
+		background-color: $primary-color;
+
+		span {
+			font-size: 16px;
+			font-weight: 300;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			line-height: 30px;
+			margin-left: 5px;
+			margin-right: 5px;
+
+			a {
+				color: $white;
+				font-family: $body-font-family;
+			}
+		}
+	}
+}
+
+.main-header {
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+
+	.main-img {
+		.columns {
+			padding-bottom: 25px;
+		}
+	}
+
+	.main-bottom {
+		.columns {
+			padding-bottom: 35px;
+		}
+	}
+}
+
+.product-section {
+	.columns {
+		padding-bottom: 20px;
+
+		& > table {
+			table-layout: fixed;
+		}
+	}
+
+	.product-info {
+		.product-title {
+			margin-bottom: 0;
+			padding-bottom: 20px;
+			font-size: 18px;
+			font-weight: 700;
+			text-transform: capitalize;
+		}
+
+		.product-description {
+			margin-bottom: 0;
+			padding-bottom: 20px;
+			font-size: 14px;
+		}
+		.btn {
+			display: block;
+			width: 150px;
+			margin: 0 auto;
+			background: $primary-color;
+			background-color: $primary-color;
+			padding-top: 9px;
+			padding-bottom: 9px;
+			border: 1px solid $white;
+			border-radius: 3px;
+			color: $white;
+			font-size: 14px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+}
+
+.sub-footer {
+	background: $primary-color;
+	background-color: $primary-color;
+}
+
+.social-footer {
+	background: $dark-gray;
+	background-color: $dark-gray;
+	margin-top: 4px;
+
+	tr {
+		text-align: center;
+	}
+	h4 {
+		margin-bottom: 0;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		font-size: 14px;
+		font-weight: 600;
+		color: $white;
+		text-align: center;
+	}
+
+	.social-links {
+		.columns {
+			display: inline-block;
+			width: 50px !important;
+			padding-bottom: 30px;
+			margin: 0 auto;
+
+			img {
+				width: 30px;
+				display: inline-block;
+			}
+		}
+	}
+}
+
+.footer {
+	.columns {
+		padding-top: 25px;
+		padding-bottom: 30px;
+
+		a {
+			color: #81838d;
+			text-decoration: underline;
+			text-align: center;
+			font-size: 13px;
+		}
+
+		img {
+			padding-top: 30px;
+			width: 138px;
+		}
+
+		p {
+			margin-bottom: 0;
+			padding-bottom: 2px;
+			color: #81838d;
+			font-size: 10px;
+			line-height: 1.5;
+		}
+	}
+
+	.footer-email {
+		.columns {
+			padding-top: 20px;
+			padding-bottom: 30px;
+		}
+	}
+
+	.footer-info {
+		.columns {
+			padding-top: 15px;
+			padding-bottom: 10px;
+			tr {
+				text-align: center;
+			}
+
+			th {
+				display: inline-block;
+			}
+			a {
+				font-size: 10px;
+			}
+
+			.footer-links {
+				span {
+					color: #81838d;
+					font-size: 10px;
+				}
+			}
+		}
+
+		.menu-divider {
+			display: inline-block;
+			height: 10px;
+			width: 1px;
+			background: #81838d;
+			background-color: #81838d;
+		}
+	}
+
+	.footer-bottom {
+		.columns {
+			padding-top: 35px;
+			padding-bottom: 10px;
+		}
+
+		p {
+			color: #5f6062;
+		}
+	}
+}
